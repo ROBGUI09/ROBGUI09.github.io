@@ -13,12 +13,13 @@
         setInterval(function() {
             i = Math.floor(Math.random()*6)
             itext=r_text[i].split('')
+            var b = 0
             var display = setInterval(function() {
-                document.getElementById('desc').innerHTML.split('|').join('') += itext[i] += "|";
+                document.getElementById('desc').innerHTML.split('|').join('') += itext[b] += "|";
                 if (i == (txt.length-1)) {
                 clearInterval(display);
                 }
-                i += 1
+                b += 1
             }, 100);
     }
 </script>
