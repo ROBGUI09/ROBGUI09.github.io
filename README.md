@@ -1,4 +1,11 @@
 <head>
+<style>
+body{ 
+    opacity: 255;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s; /* Safari */
+}
+</style>
 <script>
     var i = ""
     var r_text = new Array ();
