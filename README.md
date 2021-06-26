@@ -2,7 +2,7 @@
 <script type="text/javascript" src="desc.js"></script>
 </head>
 <body onload="script();">
-<h1 align=center><label id="desc">eeeaDdaaFffooo</label></h1>
+<h1 align=center><label id="desc">eeeaoo</label></h1>
 <button onclick="myGeeks()"> 
 
         Click Here! 
