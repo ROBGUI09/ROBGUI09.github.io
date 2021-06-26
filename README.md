@@ -16,8 +16,8 @@
             itext=r_text[i].split('');    
             var b = 0;
             var display = setInterval(function() {
-                var pr = document.getElementById('desc').innerHTML.split('|').join() + itext[b] + '|';
-                document.getElementById('desc').innerHTML = pr 
+                var pr = document.getElementById('desc').innerHTML.split('|').join();
+                document.getElementById('desc').innerHTML = pr + itext[b] + '|';
                 if (b == (itext.length-1)) {
                     clearInterval(display);
                     b = 0
