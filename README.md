@@ -13,10 +13,10 @@
     t = txt.split('');
     return t;
     }
-    function kook() {
-        i = Math.floor(Math.random()*6);
-        itext=strtxt(r_text[i]);
+    function kook() {   
         var display = setInterval(function() {
+            i = Math.floor(Math.random()*6);
+            itext=strtxt(r_text[i]);
             var b = 0;
             txt=document.getElementById('desc').innerHTML
             txt=txt+itext[b];
@@ -25,6 +25,7 @@
             }
             b++;
         }, 100);
+    }
 </script>
 </head>
 <body onload="kook();">
