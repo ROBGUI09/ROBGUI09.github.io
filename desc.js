@@ -1,4 +1,4 @@
-var container = document.getElementById("desc");
+var container = document.getElementById('desc');
 var r_text = new Array ();
 r_text[0] = "All the leaves are brown";
 r_text[1] = "And the sky is grey";
