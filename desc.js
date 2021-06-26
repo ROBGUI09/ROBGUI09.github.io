@@ -7,8 +7,8 @@ r_text[4] = "I'd be safe and warm";
 r_text[5] = "If I was in L.A.";
 r_text[6] = "California dreaming, On such a winter's day";
 function start() {
-window.setInterval(function() {
-    var i = Math.floor(7*Math.random())
-    document.getElementById('desc').innerHTML = r_text(i)
-}, 5000);
+    setInterval(function() {
+        var i = Math.floor(7*Math.random())
+        document.getElementById('desc').innerHTML = r_text(i)
+    }, 1000);
 }
