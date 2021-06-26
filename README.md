@@ -1,5 +1,6 @@
 <head>
 <script>
+    var i = ""
     var r_text = new Array ();
     r_text[0] = "All the leaves are brown";
     r_text[1] = "And the sky is grey";
@@ -10,7 +11,7 @@
     r_text[6] = "California dreaming, On such a winter's day";
     function kook() {
         setInterval(function() {
-            var i = Math.floor(7*Math.random())
+            i = Math.floor(7*Math.random())
             document.getElementById('desc').innerHTML
                 = r_text(i)
         }, 1000);
