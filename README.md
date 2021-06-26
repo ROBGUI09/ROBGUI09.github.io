@@ -9,10 +9,14 @@
     r_text[4] = "I'd be safe and warm";
     r_text[5] = "If I was in L.A.";
     r_text[6] = "California dreaming, On such a winter's day";
+    function strtxt(txt) {
+    t = txt.split('');
+    return t
+    }
     function kook() {
         setInterval(function() {
             i = Math.floor(Math.random()*6);
-            itext=r_text[i].split('');
+            itext=strtxt(r_text[i]);
             var b = 0
             var display = setInterval(function() {
                 document.getElementById('desc').innerHTML += itext[b];
