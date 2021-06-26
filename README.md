@@ -4,7 +4,7 @@
     var r_text = new Array ();
     r_text[0] = "хуевый java dev";
     r_text[1] = "более-менее python dev";
-    r_text[2] = "cpp\,c sharp\,c\#? Что это?";
+    r_text[2] = "cpp,c sharp,c#? Что это?";
     r_text[3] = "LOLCODE IS THE BEST";
     r_text[4] = "не учи еблана";
     r_text[5] = "что такое brainfuck?";
