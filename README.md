@@ -15,9 +15,11 @@
             text=""
             itext=r_text[i].split('')
             itext.forEach(function(item, index, array) {
-                text=text.split('|').join('').concat(item, "|")
-                document.getElementById('desc').innerHTML
-                    = text
+                setTimeout(function(){
+                    text=text.split('|').join('').concat(item, "|")
+                    document.getElementById('desc').innerHTML
+                        = text
+                }, 100)
             });
             text=""
         }, 1000);
