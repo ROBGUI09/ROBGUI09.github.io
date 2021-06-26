@@ -18,7 +18,7 @@ body{
     r_text[6] = "California dreaming, On such a winter's day";
     function kook() {
         setInterval(function() {
-            for (var tr = 255, i=0, i--)
+            for (var tr = 255, tr=0, tr--)
                 document.getElementById('desc').style.opacity=toString(tr)
             i = Math.floor(Math.random()*(6-0) + 0)
             document.getElementById('desc').innerHTML
