@@ -14,13 +14,12 @@
     return t;
     }
     function kook() {
-        console.log("ok")
+        document.getElementById('desc').innerHTML = ''
         var display = setInterval(function() {
             i = Math.floor(Math.random()*6);
             itext=strtxt(r_text[i]);
             var b = 0;
-            txt=document.getElementById('desc').innerHTML
-            txt=txt+itext[b];
+            document.getElementById('desc').innerHTML += itext[b];
             console.log(txt)
             if (b == (itext.length-1)) {
                 clearInterval(display);
