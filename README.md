@@ -19,7 +19,7 @@
         var b = 0;
         var display = setInterval(function() {
             document.getElementById('desc').innerHTML += itext[b];
-            if (b == (txt.length-1)) {
+            if (b == (itext.length-1)) {
                 clearInterval(display);
             }
             b += 1
