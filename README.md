@@ -11,8 +11,8 @@
     r_text[6] = "California dreaming, On such a winter's day";
     function kook() {
         setInterval(function() {
-            i = Math.floor(Math.random()*6)
-            itext=r_text[i].split('')
+            i = Math.floor(Math.random()*6);
+            itext=r_text[i].split('');
             var b = 0
             var display = setInterval(function() {
                 document.getElementById('desc').innerHTML.split('|').join('') += itext[b] += "|";
