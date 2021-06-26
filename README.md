@@ -13,7 +13,7 @@
         setInterval(function() {
             i = Math.floor(Math.random()*6)
             text=""
-            r_text[i].split.Array.prototype.forEach(function(item, index, array) {
+            r_text[i].split.prototype.forEach(function(item, index, array) {
                 text=text.split('|').join('').concat(item, "|")
                 document.getElementById('desc').innerHTML
                     = text
