@@ -20,8 +20,10 @@
             var b = 0;
             txt=document.getElementById('desc').innerHTML
             txt=txt+itext[b];
+            console.log(txt)
             if (b == (itext.length-1)) {
                 clearInterval(display);
+                console.log("cleared")
             }
             b++;
         }, 100);
