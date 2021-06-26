@@ -11,9 +11,9 @@
     r_text[6] = "California dreaming, On such a winter's day";
     function kook() {
         setInterval(function() {
-            i = Math.floor(7*Math.random())
+            i = Math.floor(Math.random()*(6-0) + 0)
             document.getElementById('desc').innerHTML
-                = "yayayaya"
+                = r_text[i]
         }, 1000);
     }
 </script>
