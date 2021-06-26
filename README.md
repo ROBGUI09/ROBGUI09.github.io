@@ -18,11 +18,12 @@
         itext=strtxt(r_text[i]);
         var b = 0;
         var display = setInterval(function() {
-            document.getElementById('desc').innerHTML += itext[b];
+            txt=document.getElementById('desc').innerHTML
+            txt=txt+itext[b];
             if (b == (itext.length-1)) {
                 clearInterval(display);
             }
-            b += 1
+            b++;
         }, 100);
 </script>
 </head>
