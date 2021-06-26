@@ -10,22 +10,24 @@
     r_text[5] = "If I was in L.A.";
     r_text[6] = "California dreaming, On such a winter's day";
     function kook() {
-        document.getElementById('desc').innerHTML = ''
-        i = Math.floor(Math.random()*6);
-        itext=r_text[i].split('');    
-        var b = 0;
-        var display = setInterval(function() {
-            document.getElementById('desc').innerHTML += itext[b];
-            console.log("ok")
-            if (b == (itext.length-1)) {
-                clearInterval(display);
-                b = 0;
-            }
-            b++;
-        }, 100);
+        setInterval(function() {
+            document.getElementById('desc').innerHTML = ''
+            i = Math.floor(Math.random()*6);
+            itext=r_text[i].split('');    
+            var b = 0;
+            var display = setInterval(function() {
+                document.getElementById('desc').innerHTML.split('|').join('') += itext[b];
+                console.log("ok")
+                if (b == (itext.length-1)) {
+                    clearInterval(display);
+                    b = 0;
+                }
+                b++;
+            }, 100);
+        }, 1000);
     }
 </script>
 </head>
 <body onload="kook();">
-<h1 align=center><label id="desc">че закибер6yлили тебя да, ну я не знаю, включи javascript</label></h1>
+<h6 align=center><label id="desc">че закибер6yлили тебя да, ну я не знаю, включи javascript</label></h6>
 </body>
