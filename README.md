@@ -1,5 +1,4 @@
 <head>
-</style>
 <script>
     var i = ""
     var r_text = new Array ();
@@ -15,11 +14,11 @@
             i = Math.floor(Math.random()*6)
             text=""
             r_text[i].split.forEach(function(item, index, array){
-                text= text.split('|').join('').concat(item, "|")
+                text=text.split('|').join('').concat(item, "|")
                 document.getElementById('desc').innerHTML
                     = text
-            })
-            
+            });
+            text=""
         }, 1000);
     }
 </script>
