@@ -20,7 +20,7 @@
             itext=strtxt(r_text[i]);
             var b = 0;
             document.getElementById('desc').innerHTML += itext[b];
-            console.log(txt)
+            console.log("ok")
             if (b == (itext.length-1)) {
                 clearInterval(display);
                 console.log("cleared")
