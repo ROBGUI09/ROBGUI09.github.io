@@ -19,7 +19,7 @@
                 var pr = document.getElementById('desc').innerHTML.split('|').join('') + itext[b] + '|';
                 document.getElementById('desc').innerHTML = pr;
                 console.log("ok")
-                if (b == (itext.length-1)) {
+                if (b > (itext.length)) {
                     clearInterval(display);
                     b = 0
                 }
