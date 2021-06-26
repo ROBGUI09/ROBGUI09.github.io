@@ -14,18 +14,16 @@
     return t;
     }
     function kook() {
-        setInterval(function() {
-            i = Math.floor(Math.random()*6);
-            itext=strtxt(r_text[i]);
-            var b = 0;
-            var display = setInterval(function() {
-                document.getElementById('desc').innerHTML += itext[b];
-                if (b == (txt.length-1)) {
-                    clearInterval(display);
-                }
-                b += 1
-            }, 100);
-    }
+        i = Math.floor(Math.random()*6);
+        itext=strtxt(r_text[i]);
+        var b = 0;
+        var display = setInterval(function() {
+            document.getElementById('desc').innerHTML += itext[b];
+            if (b == (txt.length-1)) {
+                clearInterval(display);
+            }
+            b += 1
+        }, 100);
 </script>
 </head>
 <body onload="kook();">
