@@ -12,17 +12,14 @@
     function kook() {
         setInterval(function() {
             i = Math.floor(Math.random()*6)
-            text=""
             itext=r_text[i].split('')
-            itext.forEach(function(item, index, array) {
-                setTimeout(function(){
-                    text=text.split('|').join('').concat(array[index], "|")
-                    document.getElementById('desc').innerHTML
-                        = text
-                }, 100)
-            });
-            text=""
-        }, 1000);
+            var display = setInterval(function() {
+                document.getElementById('desc').innerHTML.split('|').join('') += itext[i] += "|";
+                if (i == (txt.length-1)) {
+                clearInterval(display);
+                }
+                i += 1
+            }, 100);
     }
 </script>
 </head>
