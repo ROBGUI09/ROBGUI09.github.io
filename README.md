@@ -11,13 +11,13 @@
     r_text[6] = "California dreaming, On such a winter's day";
     function strtxt(txt) {
     t = txt.split('');
-    return t
+    return t;
     }
     function kook() {
         setInterval(function() {
             i = Math.floor(Math.random()*6);
             itext=strtxt(r_text[i]);
-            var b = 0
+            var b = 0;
             var display = setInterval(function() {
                 document.getElementById('desc').innerHTML += itext[b];
                 if (b == (txt.length-1)) {
