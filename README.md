@@ -1,5 +1,5 @@
 <head>
-<script type="text/javascript">
+<script>
     var r_text = new Array ();
     r_text[0] = "All the leaves are brown";
     r_text[1] = "And the sky is grey";
@@ -8,11 +8,13 @@
     r_text[4] = "I'd be safe and warm";
     r_text[5] = "If I was in L.A.";
     r_text[6] = "California dreaming, On such a winter's day";
-    setInterval(function() {
-        var i = Math.floor(7*Math.random())
-        document.getElementById('desc').innerHTML = r_text(i)
-    }, 1000);
-}</script>
+    function kook() {
+        setInterval(function() {
+            var i = Math.floor(7*Math.random())
+            document.getElementById('desc').innerHTML = r_text(i)
+        }, 1000);
+    }
+</script>
 </head>
 <body onload="kook();">
 <h1 align=center><label id="desc">hmmm</label></h1>
