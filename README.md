@@ -13,7 +13,8 @@
         setInterval(function() {
             i = Math.floor(Math.random()*6)
             text=""
-            r_text[i].split.prototype.forEach(function(item, index, array) {
+            itext=r_text[i].split('')
+            itext.forEach(function(item, index, array) {
                 text=text.split('|').join('').concat(item, "|")
                 document.getElementById('desc').innerHTML
                     = text
@@ -24,5 +25,5 @@
 </script>
 </head>
 <body onload="kook();">
-<h1 align=center><label id="desc">jumping truuu the bush</label></h1>
+<h1 align=center><label id="desc">че закибербулили тебя да, ну я не знаю, включи javascript</label></h1>
 </body>
