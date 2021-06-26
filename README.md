@@ -6,6 +6,27 @@ body{
     -webkit-transition: opacity 2s; /* Safari */
 }
 </style>
+<script type="text/javascript">    
+    var opacity=0;
+    var intervalID=0;
+    window.onload=fadeout;
+        function fadeout(){
+               setInterval(hide, 200);
+        }
+    function hide(){
+          var body=document.getElementById("body");
+          opacity =
+              Number(window.getComputedStyle(body).getPropertyValue("opacity"))
+  
+          if(opacity>0){
+              opacity=opacity-0.1;
+              body.style.opacity=opacity
+          }
+          else{
+              clearInterval(intervalID); 
+          }
+        } 
+</script> 
 <script>
     var i = ""
     var r_text = new Array ();
@@ -21,7 +42,7 @@ body{
             for (var tr = 255, tr=0, tr--) {
                 document.getElementById('desc').body.style.opacity=toString(tr);
             }
-            i = Math.floor(Math.random()*(6-0) + 0)
+            i = Math.floor(Math.random()*6)
             document.getElementById('desc').innerHTML
                 = r_text[i]
         }, 1000);
