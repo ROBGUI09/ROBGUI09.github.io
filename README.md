@@ -3,4 +3,5 @@
 </head>
 <body onload="start();">
 <h1 align=center><label id="desc">hmmm</label></h1>
+<button onclick="start()">go</button>
 </body>
