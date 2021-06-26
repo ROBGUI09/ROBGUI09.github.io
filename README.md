@@ -13,13 +13,13 @@
         document.getElementById('desc').innerHTML = ''
         i = Math.floor(Math.random()*6);
         itext=r_text[i].split('');    
+        var b = 0;
         var display = setInterval(function() {
-            var b = 0;
             document.getElementById('desc').innerHTML += itext[b];
             console.log("ok")
             if (b == (itext.length-1)) {
                 clearInterval(display);
-                console.log("cleared")
+                b = 0;
             }
             b++;
         }, 100);
