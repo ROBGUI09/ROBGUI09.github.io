@@ -16,7 +16,7 @@
             var b = 0
             var display = setInterval(function() {
                 document.getElementById('desc').innerHTML.split('|').join('') += itext[b] += "|";
-                if (i == (txt.length-1)) {
+                if (b == (txt.length-1)) {
                 clearInterval(display);
                 }
                 b += 1
