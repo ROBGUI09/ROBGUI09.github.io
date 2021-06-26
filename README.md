@@ -15,9 +15,9 @@
     }
     function kook() {
         document.getElementById('desc').innerHTML = ''
+        i = Math.floor(Math.random()*6);
+        itext=strtxt(r_text[i]);    
         var display = setInterval(function() {
-            i = Math.floor(Math.random()*6);
-            itext=strtxt(r_text[i]);
             var b = 0;
             document.getElementById('desc').innerHTML += itext[b];
             console.log("ok")
