@@ -18,5 +18,5 @@
 </script>
 </head>
 <body onload="kook()">
-<h1 align=center><label id="desc">hmmm</label></h1>
+<h1 align=center><label id="desc">hmmmm</label></h1>
 </body>
