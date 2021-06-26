@@ -8,5 +8,5 @@ r_text[4] = "I'd be safe and warm";
 r_text[5] = "If I was in L.A.";
 r_text[6] = "California dreaming, On such a winter's day";
 var i = Math.floor(7*Math.random())
-container.textContent = r_text(i)
+container.innerHTML = r_text(i)
 
