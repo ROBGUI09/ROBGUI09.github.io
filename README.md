@@ -13,7 +13,8 @@
     t = txt.split('');
     return t;
     }
-    function kook() {   
+    function kook() {
+        console.log("ok")
         var display = setInterval(function() {
             i = Math.floor(Math.random()*6);
             itext=strtxt(r_text[i]);
