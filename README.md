@@ -13,7 +13,7 @@
     t = txt.split('');
     return t;
     }
-    function kook() { // да бля
+    function kook() {
         i = Math.floor(Math.random()*6);
         itext=strtxt(r_text[i]);
         var b = 0;
@@ -28,5 +28,5 @@
 </script>
 </head>
 <body onload="kook();">
-<h1 align=center><label id="desc">че закибербулили тебя да, ну я не знаю, включи javascript</label></h1>
+<h1 align=center><label id="desc">че закибер6yлили тебя да, ну я не знаю, включи javascript</label></h1>
 </body>
