@@ -13,11 +13,11 @@
         setInterval(function() {
             i = Math.floor(7*Math.random())
             document.getElementById('desc').innerHTML
-                = r_text(i)
+                = "yayayaya"
         }, 1000);
     }
 </script>
 </head>
-<body onload="kook()">
+<body onload="kook();">
 <h1 align=center><label id="desc">hmmmm</label></h1>
 </body>
