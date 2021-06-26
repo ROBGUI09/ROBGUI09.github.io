@@ -1,32 +1,5 @@
 <head>
-<style>
-body{ 
-    opacity: 255;
-    transition: opacity 2s;
-    -webkit-transition: opacity 2s; /* Safari */
-}
 </style>
-<script type="text/javascript">    
-    var opacity=0;
-    var intervalID=0;
-    window.onload=fadeout;
-    function fadeout(){
-        setInterval(hide, 200);
-    }
-    function hide(){
-        var body=document.getElementById("body");
-        opacity =
-            Number(window.getComputedStyle(body).getPropertyValue("opacity"))
-  
-        if(opacity>0){
-            opacity=opacity-0.1;
-            body.style.opacity=opacity
-        }
-        else{
-            clearInterval(intervalID); 
-        }
-    } 
-</script> 
 <script>
     var i = ""
     var r_text = new Array ();
@@ -39,12 +12,14 @@ body{
     r_text[6] = "California dreaming, On such a winter's day";
     function kook() {
         setInterval(function() {
-            for (var tr = 255, tr=0, tr--) {
-                document.getElementById('desc').body.style.opacity=toString(tr);
-            }
             i = Math.floor(Math.random()*6)
-            document.getElementById('desc').innerHTML
-                = r_text[i]
+            text=""
+            r_text[i].split.forEach(function(item, index, array){
+                text= text.split('|').join('').concat(item, "|")
+                document.getElementById('desc').innerHTML
+                    = text
+            })
+            
         }, 1000);
     }
 </script>
