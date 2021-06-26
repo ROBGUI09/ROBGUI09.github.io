@@ -9,14 +9,10 @@
     r_text[4] = "I'd be safe and warm";
     r_text[5] = "If I was in L.A.";
     r_text[6] = "California dreaming, On such a winter's day";
-    function strtxt(txt) {
-    t = txt.split('');
-    return t;
-    }
     function kook() {
         document.getElementById('desc').innerHTML = ''
         i = Math.floor(Math.random()*6);
-        itext=strtxt(r_text[i]);    
+        itext=r_text[i].split('');    
         var display = setInterval(function() {
             var b = 0;
             document.getElementById('desc').innerHTML += itext[b];
