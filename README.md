@@ -29,5 +29,5 @@ body{
 </script>
 </head>
 <body onload="kook();">
-<h1 align=center><label id="desc">hmmmm</label></h1>
+<h1 align=center><label id="desc">jumping truuu the bush</label></h1>
 </body>
