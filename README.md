@@ -16,9 +16,7 @@
             itext=r_text[i].split('');    
             var b = 0;
             var display = setInterval(function() {
-                var pr = document.getElementById('desc').innerHTML.split('|').join('') + itext[b] + '|';
-                document.getElementById('desc').innerHTML = pr;
-                console.log("ok")
+                document.getElementById('desc').innerHTML += itext[b];
                 if (b > (itext.length)) {
                     clearInterval(display);
                     b = 0
