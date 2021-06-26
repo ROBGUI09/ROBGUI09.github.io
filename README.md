@@ -17,10 +17,12 @@
             var b = 0;
             var display = setInterval(function() {
                 document.getElementById('desc').innerHTML += itext[b];
-                b++;
                 if (b == (itext.length-1)) {
                     clearInterval(display);
                     b = 0
+                }
+                else{
+                b++;
                 }
             }, 100);
         }, 10000);
