@@ -1,21 +1,12 @@
 var container = document.getElementById("desc");
-var notes = [
-  {scenario: 1, intro: "This is the introduction.", que: "What is the weight of ....?"},
-  {scenario: 2, intro: "This is the second scen.", que: "What is the second law of ...?"},
-  {scenario: 3, intro: "This is the third thing.", que: "What is the third law of ...?"}
-];
-function terminal(cl, i) {
-  var div = document.createElement('div');
-  div.className = cl;
-  container.appendChild(div);
-  var txt = [notes[0].intro, notes[0].que].join('\n').split('');
-  var i = 0;
-  (function display() {
-    if(i < txt.length) {
-      div.innerHTML += txt[i].replace('\n', '<br />');
-      ++i;
-      setTimeout(display, 100);
-    }
-  })();
-}
-terminal('blueTh', 0);
+var r_text = new Array ();
+r_text[0] = "All the leaves are brown";
+r_text[1] = "And the sky is grey";
+r_text[2] = "I've been for a walk";
+r_text[3] = "On a winter's day";
+r_text[4] = "I'd be safe and warm";
+r_text[5] = "If I was in L.A.";
+r_text[6] = "California dreaming, On such a winter's day";
+var i = Math.floor(7*Math.random())
+$("desc").update(r_text(i))
+
