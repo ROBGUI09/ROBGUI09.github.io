@@ -16,7 +16,7 @@
             itext=r_text[i].split('')
             itext.forEach(function(item, index, array) {
                 setTimeout(function(){
-                    text=text.split('|').join('').concat(item, "|")
+                    text=text.split('|').join('').concat(array[index], "|")
                     document.getElementById('desc').innerHTML
                         = text
                 }, 100)
