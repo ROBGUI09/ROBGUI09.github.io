@@ -11,14 +11,13 @@
     r_text[6] = "California dreaming, On such a winter's day";
     function kook() {
         setInterval(function() {
-            document.getElementById('desc').innerHTML = '';
+            document.getElementById('desc').innerHTML = 'hi|';
             i = Math.floor(Math.random()*6);
             itext=r_text[i].split('');    
             var b = 0;
             var display = setInterval(function() {
                 var pr = document.getElementById('desc').innerHTML.split('|').join('') + itext[b] + '|';
-                document.getElementById('desc').innerHTML
-                    = pr;
+                document.getElementById('desc').innerHTML = pr;
                 console.log("ok")
                 if (b == (itext.length-1)) {
                     clearInterval(display);
