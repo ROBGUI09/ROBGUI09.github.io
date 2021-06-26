@@ -20,7 +20,7 @@
                 console.log("ok")
                 if (b == (itext.length-1)) {
                     clearInterval(display);
-                    b = 0;
+                    b = 0
                 }
                 b++;
             }, 100);
