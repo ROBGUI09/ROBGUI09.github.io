@@ -1,6 +1,6 @@
     var i = ""
     var r_text = new Array ();
-    r_text[0] = "хуевый java dev";
+    r_text[0] = "\u0445\u0443\u0435\u0432\u044B\u0439 java dev";
 //    r_text[1] = "более\-менее python dev";
 //    r_text[2] = "cpp\,c sharp\,c\#? Что это?";
 //    r_text[3] = "LOLCODE IS THE BEST";
