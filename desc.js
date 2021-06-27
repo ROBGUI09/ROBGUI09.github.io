@@ -1,6 +1,6 @@
     var i = ""
     var r_text = new Array ();
-    r_text[0] = '\u0445\u0443\u0435\u0432\u044B\u0439 java dev';
+    r_text[0] = ['\u0445','\u0443','\u0435','\u0432','\u044B','\u0439',' ','j','a','v','a',' ','d','e','v'];
     r_text[1] = "более-менее python dev";
     r_text[2] = "c++,c sharp,c#? Что это?";
     r_text[3] = "LOLCODE IS THE BEST";
@@ -22,7 +22,7 @@
         for (var l=0; l<Infinity; l++) {
             document.getElementById('desc').innerHTML = '';
             i = Math.floor(Math.random()*0);
-            itext=r_text[i].split('');    
+            itext=r_text[i];  
             var b = 0;
             var display = setInterval(function() {
                 var pr = document.getElementById('desc').innerHTML.split('|').join('');
