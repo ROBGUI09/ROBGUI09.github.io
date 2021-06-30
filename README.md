@@ -8,6 +8,7 @@
             eruda.init(); 
             eruda.show(); 
         } 
+    kook();
     }
 </script>
 <script>
