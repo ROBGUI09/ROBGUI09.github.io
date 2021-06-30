@@ -9,6 +9,7 @@
             eruda.show(); 
         } 
     }
+</script>
 <script>
     var r_text = new Array ();
     r_text[0] = "bad java dev";
