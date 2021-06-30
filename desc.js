@@ -1,4 +1,4 @@
-var i = "";
+var i = 0;
 var r_text = new Array ();
 r_text[0] = "bad java dev";
 //r_text[1] = "well python dev";
