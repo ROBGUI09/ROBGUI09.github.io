@@ -87,7 +87,7 @@
 </style>
 </head>
 <body onload="kook();">
-<font align=center><label id="desc">ерунда че закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
+<font align=center><label id="desc">ерунда че 3закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
 <div class="btn btn-main">
     <span>HOVER ME</span>
 </div>
