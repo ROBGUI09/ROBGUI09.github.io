@@ -2,7 +2,7 @@
     var r_text = new Array ();
     r_text[0] = "bad java dev";
     r_text[1] = "well python dev";
-    r_text[2] = "c++,c sharp,c#? wtf is this?";
+    r_text[2] = "owo.......uwu";
     r_text[3] = "LOLCODE IS THE BEST";
     r_text[4] = "do not disturb, generating bad scripts";
     r_text[5] = "brainfuck?";
