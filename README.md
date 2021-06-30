@@ -51,5 +51,5 @@
 </script>
 </head>
 <body onload="start();">
-<font align=center><label id="desc">че закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
+<font align=center><label id="desc">ерунда че закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
 </body>
