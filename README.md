@@ -8,7 +8,6 @@
             eruda.init(); 
             eruda.show(); 
         } 
-    kook();
     }
 </script>
 <script>
@@ -52,6 +51,6 @@
     }
 </script>
 </head>
-<body onload="start();">
+<body onload="start();kook();">
 <font align=center><label id="desc">ерунда че закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
 </body>
