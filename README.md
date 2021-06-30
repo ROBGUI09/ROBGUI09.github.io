@@ -1,16 +1,5 @@
 <head>
 <script>
-    function start() { 
-        var script = document.createElement('script'); 
-        script.src="//cdn.jsdelivr.net/npm/eruda"; 
-        document.body.appendChild(script); 
-        script.onload = function () { 
-            eruda.init(); 
-            eruda.show(); 
-        } 
-    }
-</script>
-<script>
     var r_text = new Array ();
     r_text[0] = "bad java dev";
     //r_text[1] = "well python dev";
@@ -50,7 +39,49 @@
         }
     }
 </script>
+<style>
+.btn {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.1);
+  transition: all 0.3s;
+}
+.btn:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255,255,255,0.5);
+  transform: scale(1.2,1.2);
+}
+.btn:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
+</style>
 </head>
-<body onload="start();kook();">
+<body onload="kook();">
 <font align=center><label id="desc">ерунда че закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
+<div class="btn">
+    <span>HOVER ME</span>
+</div>
 </body>
