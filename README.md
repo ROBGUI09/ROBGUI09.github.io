@@ -1,6 +1,5 @@
 <head>
 <script type="text/javascript">
-    var i = 0;
     var r_text = new Array ();
     r_text[0] = "bad java dev";
     //r_text[1] = "well python dev";
@@ -23,7 +22,7 @@
     function kook() {
         for (var l=0; l<Infinity; l++) {
             document.getElementById('desc').innerHTML = '';
-            i = Math.floor(Math.random()*0);
+            var i = Math.floor(Math.random()*0);
             var itext=r_text[i].split('');
             var b = 0;
             var display = setInterval(function() {
