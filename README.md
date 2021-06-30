@@ -1,4 +1,4 @@
--7<head>
+<head>
 <script type="text/plain" src="https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/desc.js"></script>
 </head>
 <body onload="kook();">
