@@ -40,6 +40,13 @@
     }
 </script> -->
 <style>
+.btn-main {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
 .btn {
   color: #FFF;
   transition: all 0.5s;
@@ -81,7 +88,7 @@
 </head>
 <body onload="kook();">
 <font align=center><label id="desc">ерунда че закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
-<div class="btn">
+<div class="btn btn-main">
     <span>HOVER ME</span>
 </div>
 </body>
