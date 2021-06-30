@@ -1,5 +1,5 @@
 <head>
-<script>
+/* <script>
     var r_text = new Array ();
     r_text[0] = "bad java dev";
     //r_text[1] = "well python dev";
@@ -38,7 +38,7 @@
             }, 100);
         }
     }
-</script>
+</script> */
 <style>
 .btn {
   color: #FFF;
