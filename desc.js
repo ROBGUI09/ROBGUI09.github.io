@@ -1,4 +1,4 @@
-    var i = ""
+    var i = "";
     var r_text = new Array ();
     r_text[0] = "bad java dev";
     r_text[1] = "well python dev";
@@ -22,18 +22,18 @@
         for (var l=0; l<Infinity; l++) {
             document.getElementById('desc').innerHTML = '';
             i = Math.floor(Math.random()*16);
-            itext=r_text[i].split('');
+            var itext=r_text[i].split('');
             var b = 0;
             var display = setInterval(function() {
                 var pr = document.getElementById('desc').innerHTML.split('|').join('');
                 document.getElementById('desc').innerHTML = pr + itext[b] + '|';
                 if (b == (itext.length-1)) {
                     clearInterval(display);
-                    b = 0
+                    b = 0;
                 }
                 else{
                 b++;
                 }
             }, 100);
-        };
+        }
     }
