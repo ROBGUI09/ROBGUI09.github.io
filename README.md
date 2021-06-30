@@ -1,5 +1,15 @@
 <head>
-<script type="text/javascript">
+<script>
+    function start() { 
+        var script = document.createElement('script'); 
+        script.src="//cdn.jsdelivr.net/npm/eruda"; 
+        document.body.appendChild(script); 
+        script.onload = function () { 
+            eruda.init(); 
+            eruda.show(); 
+        } 
+    }
+<script>
     var r_text = new Array ();
     r_text[0] = "bad java dev";
     //r_text[1] = "well python dev";
@@ -40,6 +50,6 @@
     }
 </script>
 </head>
-<body onload="kook();">
+<body onload="start();">
 <font align=center><label id="desc">че закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
 </body>
