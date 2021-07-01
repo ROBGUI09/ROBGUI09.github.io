@@ -88,7 +88,9 @@
 </head>
 <body onload="kook();">
 <font align=center><label id="desc">ерунда че 3закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
+<a href="https://t.me/ROBGUI09">
 <div class="btn btn-main">
-    <a href="https://t.me/ROBGUI09"><span>HOVER ME</span></a>
+    <span>HOVER ME</span>
 </div>
+</a>
 </body>
