@@ -1,6 +1,6 @@
 <head>
-<script type="text/plain" src="https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/desc.js"></script>
-<link rel="stylesheet" href="https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/styles.css">
+<script type="text/javascript" src="desc.js"></script>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body onload="kook();" style="background-color:black; bgtext;">
 <font align=center><label id="desc">ерунда че 3закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
