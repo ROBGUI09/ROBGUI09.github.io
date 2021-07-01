@@ -40,6 +40,18 @@
     }
 </script> -->
 <style>
+.bgtext { 
+    position: relative; 
+} 
+.bgtext:after { 
+    margin: 3rem; 
+    content: "span div class"; 
+    position: absolute;  
+    color: rgb(187, 182, 182); 
+    top: 0; 
+    left: 0; 
+    z-index: -1; 
+} 
 .btn-main {
   line-height: 50px;
   height: 50px;
@@ -89,7 +101,7 @@
 <body onload="kook();">
 <font align=center><label id="desc">ерунда че 3закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
 <a href="https://t.me/ROBGUI09">
-<div class="btn btn-main">
+<div class="btn btn-main bgtext">
     <span>HOVER ME</span>
 </div>
 </a>
