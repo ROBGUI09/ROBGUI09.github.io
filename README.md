@@ -98,7 +98,7 @@
 }
 </style>
 </head>
-<body onload="kook();">
+<body onload="kook(); style="background-color:black"">
 <font align=center><label id="desc">ерунда че 3закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
 <a href="https://t.me/ROBGUI09">
 <div class="btn btn-main bgtext">
