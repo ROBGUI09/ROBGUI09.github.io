@@ -60,7 +60,8 @@
     <br>ok
     <br>ok
     <br>ok
-    <br>ok<br>ok
+    <br>ok
+    <br>ok
     <br>ok
     <br>ok
     <br>ok
@@ -83,6 +84,6 @@
     <br>ok
     <br>ok
     <br>ok
-    <br>ok
+    <br>С КАКОЙ СТАТИ?!?!!? ААААААААААААААААААААААААААААААААААА
     <script src="./style.js"></script>
 </body>
