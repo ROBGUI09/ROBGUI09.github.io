@@ -1,66 +1,6 @@
 <head>
-<script src=""></script>
-<style>
-.bgtext { 
-    position: relative; 
-} 
-.bgtext:after { 
-    margin: 3rem; 
-    content: "isisieiej wkwoeoeo"; 
-    position: absolute;  
-    color: rgb(255,255,255); 
-    top: 0; 
-    left: 0; 
-    z-index: -1; 
-} 
-.btn-main {
-  line-height: 50px;
-  height: 50px;
-  text-align: center;
-  width: 250px;
-  cursor: pointer;
-}
-.btn {
-  color: #FFF;
-  transition: all 0.5s;
-  position: relative;
-}
-.btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-color: rgba(255,255,255,0.1);
-  transition: all 0.3s;
-}
-.btn:hover::before {
-  opacity: 0 ;
-  transform: scale(0.5,0.5);
-}
-.btn::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.3s;
-  border: 1px solid rgba(255,255,255,0.5);
-  transform: scale(1.2,1.2);
-}
-.btn:hover::after {
-  opacity: 1;
-  transform: scale(1,1);
-}
-.ac {
-  text-align: center;
-}
-</style>
+<script type="text/plain" src="https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/desc.js"></script>
+<link rel="stylesheet" href="https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/styles.css">
 </head>
 <body onload="kook();" style="background-color:black; bgtext;">
 <font align=center><label id="desc">ерунда че 3закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
