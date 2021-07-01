@@ -2,7 +2,7 @@
 <script type="text/javascript" src="./style.js"></script>
 <link rel="stylesheet" href="./styles.css">
 </head>
-<body onload="kook();" style="bgtext;">
+<body onload="kook();" style="background-color:white; bgtext;">
     <main>
         <br>
         <p>Hi!<br>welcum</p>
@@ -13,5 +13,30 @@
             <span>HOVER ME</span>
         </div>
     </a>
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    <br>ok
+    
     <script src="./style.js"></script>
 </body>
