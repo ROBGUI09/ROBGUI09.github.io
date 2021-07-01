@@ -1,5 +1,5 @@
 <head>
-//<script type="text/javascript" src="./desc.js"></script>
+<script type="text/javascript" src="./desc.js"></script>
 <link rel="stylesheet" href="./styles.css">
 </head>
 <body onload="kook();" style="background-color:black; bgtext;">
