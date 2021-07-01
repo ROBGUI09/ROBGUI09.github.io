@@ -88,6 +88,16 @@ div a:hover {
 
 .discord:hover {
   color: #7289da !important;
+}
+blur {
+  filter: blur(8px);
+}
+blur:hover {
+  filter: blur(0px);
+}
+blur:hover::after {
+  filter: blur(0px);
+}
 
 .minecraft {
   filter: grayscale(100%);   
@@ -150,7 +160,7 @@ div a:hover {
       <p>Hello, I\'m ROBGUI<br>I do srach online</p>
       <a onclick="scrollDown()">scroll down</a>
    </main>
-   <div>
+   <div align="center">
       <h1>Ссылки</h1>
       <a href="https://t.me/ROBGUI09" class="telegram btn btn-main">
          <svg style="width:50px;height:50px" viewBox="0 0 24 24">
