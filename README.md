@@ -2,7 +2,7 @@
 <script type="text/javascript" src="./style.js"></script>
 <link rel="stylesheet" href="./styles.css">
 </head>
-<body onload="kook();" style="background-color:black; bgtext;">
+<body onload="kook();" style="bgtext;">
     <main>
         <br>
         <p>Hi!<br>welcum</p>
