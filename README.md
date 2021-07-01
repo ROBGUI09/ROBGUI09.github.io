@@ -45,9 +45,9 @@
 } 
 .bgtext:after { 
     margin: 3rem; 
-    content: "span div class"; 
+    content: "isisieiej wkwoeoeo"; 
     position: absolute;  
-    color: rgb(187, 182, 182); 
+    color: rgb(255,255,255); 
     top: 0; 
     left: 0; 
     z-index: -1; 
@@ -103,9 +103,11 @@
 </head>
 <body onload="kook();" style="background-color:black; bgtext;">
 <font align=center><label id="desc">ерунда че 3закибербебнулили тебя да, ну я не знаю, включи javascript</label></font>
+<p style="text-align:center;">
 <a href="https://t.me/ROBGUI09">
     <div class="btn btn-main ac">
         <span>HOVER ME</span>
     </div>
 </a>
+</p>
 </body>
