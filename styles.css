@@ -1,3 +1,53 @@
+@font-face 
+   font-family: VHS OSD Mono
+   src: url(../vhs.woff2)
+
+@media screen and (max-width: 900px) 
+   canvas
+      width: 100vw !important
+      height: 100vh !important
+   main p
+      font-size: 1.5rem !important
+
+body 
+   margin: 0
+   overflow-x: hidden
+   background-color: #050505
+
+main
+   position: absolute
+   top: 0
+   left: 0
+   right: 0
+   z-index: -1
+   bottom: 0
+   font-family: VHS OSD Mono, Arial, sans-serif
+   display: flex
+   flex-direction: column
+   justify-content: space-around
+   align-items: center
+   height: 100vh
+   color: white
+   p 
+      font-size: 4rem
+      margin: 0
+   a 
+      cursor: pointer      
+
+canvas
+   top: 0
+   left: 0
+   z-index: -2
+   position: absolute
+   background: #050505
+   width: 110vw
+   height: 110vh
+
+.telegram:hover
+   color: #0088cc !important
+
+.vk:hover
+   color: #2787F5 !important
 .bgtext { 
     position: relative; 
 } 
