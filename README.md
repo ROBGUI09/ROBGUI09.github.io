@@ -13,4 +13,5 @@
             <span>HOVER ME</span>
         </div>
     </a>
+    <script src="./style.js"></script>
 </body>
