@@ -1,3 +1,4 @@
+<html>
 <head>
 <script type="text/javascript" src="./style.js"></script>
 <link rel="stylesheet" href="./styles.css">
@@ -87,3 +88,4 @@
     <br>С КАКОЙ СТАТИ?!?!!? ААААААААААААААААААААААААААААААААААА
     <script src="./style.js"></script>
 </body>
+</html>
