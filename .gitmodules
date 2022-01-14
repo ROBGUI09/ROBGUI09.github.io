@@ -1,0 +1,3 @@
+[submodule "webNBT"]
+	path = webNBT
+	url = https://github.com/ROBGUI09/webNBT
