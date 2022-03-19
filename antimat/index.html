@@ -1,0 +1,34 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Антимат</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        const reg = /(?<=^|[^а-я])(([уyu]|[нзnz3][аa]|(хитро|не)?[вvwb][зz3]?[ыьъi]|[сsc][ьъ']|(и|[рpr][аa4])[зсzs]ъ?|([оo0][тбtb6]|[пp][оo0][дd9])[ьъ']?|(.\B)+?[оаеиeo])?-?([еёe][бb6](?!о[рй])|и[пб][ае][тц]).*?|([нn][иеаaie]|([дпdp]|[вv][еe3][рpr][тt])[оo0]|[рpr][аa][зсzc3]|[з3z]?[аa]|с(ме)?|[оo0]([тt]|дно)?|апч)?-?[хxh][уuy]([яйиеёюuie]|ли(?!ган)).*?|([вvw][зы3z]|(три|два|четыре)жды|(н|[сc][уuy][кk])[аa])?-?[бb6][лl]([яy](?!(х|ш[кн]|мб)[ауеыио]).*?|[еэe][дтdt][ь']?)|([рp][аa][сзc3z]|[знzn][аa]|[соsc]|[вv][ыi]?|[пp]([еe][рpr][еe]|[рrp][оиioеe]|[оo0][дd])|и[зс]ъ?|[аоao][тt])?[пpn][иеёieu][зz3][дd9].*?|([зz3][аa])?[пp][иеieu][дd][аоеaoe]?[рrp](ну.*?|[оаoa][мm]|([аa][сcs])?([иiu]([лl][иiu])?[нщктлtlsn]ь?)?|([оo](ч[еиei])?|[аa][сcs])?[кk]([оo]й)?|[юu][гg])[ауеыauyei]?|[мm][аa][нnh][дd]([ауеыayueiи]([лl]([иi][сзc3щ])?[ауеыauyei])?|[оo][йi]|[аоao][вvwb][оo](ш|sh)[ь']?([e]?[кk][ауеayue])?|юк(ов|[ауи])?)|[мm][уuy][дd6]([яyаиоaiuo0].*?|[еe]?[нhn]([ьюия'uiya]|ей))|мля([тд]ь)?|лять|([нз]а|по)х|м[ао]л[ао]фь([яию]|[её]й))(?=($|[^а-я]))/gm
+    </script>
+</head>
+
+<body style="background: #eeeeff;">
+    <div align="center">
+    <font face="Sans,DroidSans,Monospace" size=3>
+    	<h2>Матопик-3000 <img src="./SaF_Confused.png" style="width: 5%; height: 5%; object-fit: scale-down; position: absolute;"/></h2><br>
+    <form name="form">
+        Чем заменять<br>
+        <textarea type="text" name="replacer" id="replacer" border=0 style="height: 10%; width: 25%">***</textarea>
+        <br>
+        Вычищаемый от мата текст<br>
+    	<textarea type="text" name="mat" id="mat" border=0 style="height: 20%; width: 90%" oninput="document.getElementById('result').value = document.getElementById('mat').value.replaceAll(reg,document.getElementById('replacer').value)">хуй</textarea>
+        <br>
+        Результат<br>
+    	<textarea type="text" name="result" id="result" border=0 readonly=true style="height: 20%; width: 90%">***</textarea>
+    </form><h6>
+    - Это все не мое.<br>
+    - Ты украл это?<br>
+    - У нас, программистов, так принято.<br></h6>
+    </font>
+    </div>
+</body>
+
+</html>
