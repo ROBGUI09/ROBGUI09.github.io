@@ -1,0 +1,147 @@
+html,body {
+	background: black;
+	font: 1.2em "Roboto", sans;
+	color:crimson;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.dummy {
+	height:15vh;
+}
+
+
+.globe {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  max-width: 75vw; !important
+  border-radius: 50%;
+  //border: 10px solid black;
+  box-sizing: border-box;
+  //background: black;
+  box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+  margin: 0 0 0 5%;
+}
+
+.view {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height:100%;
+  perspective: 700;
+}
+
+.plane {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+.plane.main {
+  position: absolute;
+  content: 'похуhhgorodoeoyeosodoydohdoydoysoydoyddphdhdldhdlhxlhxlhdldlhdlhslhdphdpudpjdpydй';    
+  align-items: center;
+  vertical-align: middle;
+  text-align:center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: rotateX(60deg) rotateZ(-30deg);
+  animation: rotate 30s infinite linear;
+  
+}
+.plane.main .circle {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px crimson, inset 0 0 60px crimson;
+}
+
+
+.plane.main .circle:before, .plane.main .circle:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 9%;
+  height: 9%;
+  border-radius: 100%;
+  background: crimson;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px 2px crimson;
+  animation: pulse, cpulse 3.5s infinite linear;
+}
+.plane.main .circle:before {
+  transform: translateZ(-140px);
+}
+.plane.main .circle:after {
+  transform: translateZ(140px);
+}
+.plane.main .circle:nth-child(1) {
+  transform: rotateZ(72deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(2) {
+  transform: rotateZ(144deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(3) {
+  transform: rotateZ(216deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(4) {
+  transform: rotateZ(288deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(5) {
+  transform: rotateZ(360deg) rotateX(63.435deg);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+
+@keyframes pulse {
+	5% {background:crimson;}
+	10% {background:#ff5555;}
+	15% {background:crimson;}
+	20% {background:#ff5555;}
+    25% {background:crimson;}
+}
+
+@keyframes pmpulse {
+	5% {box-shadow:0 0 60px crimson, inset 0 0 60px crimson;}
+	10% {box-shadow:0 0 60px #ff5555, inset 0 0 60px #ff5555;}
+	15% {box-shadow:0 0 60px crimson, inset 0 0 60px crimson;}
+	20% {box-shadow:0 0 60px #ff5555, inset 0 0 60px #ff5555;}
+    25% {box-shadow:0 0 60px crimson, inset 0 0 60px crimson;}
+}
+
+
+@keyframes cpulse {
+	5% {width:9%;height:9%;}
+	10% {width:15%;height:15%;}
+	15% {width:9%;height:9%;}
+	20% {width:15%;height:15%;}
+    25% {width:9%;height:9%;}
+}
