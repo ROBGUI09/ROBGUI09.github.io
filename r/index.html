@@ -1,17 +1,5 @@
 <html>
 <body>
-<script>try {
-
-     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube://dQw4w9WgXcQ"));
-     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-     startActivity(intent);
-
-} catch (ActivityNotFoundException e) {
-
-    // youtube is not installed.Will be opened in other available apps
-
-    Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/watch?v=dQw4w9WgXcQ"));
-    startActivity(i);
-}</script>
+<script>window.open("https://youtube.com/watch?v=dQw4w9WgXcQ","_self");</script>
 </body>
 </html>
