@@ -1,1 +1,29 @@
+<!doctype html>
+<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="https://robgui09.github.io/ebat/ebat.gif">
+    <meta property="og:type" content="video.other">
+    <meta property="og:video:url" content="https://robgui09.github.io/ebat/scatman.mp4">
+    <meta property="og:video:width" content="1280">
+    <meta property="og:video:height" content="720">
+    <style>
+    body,html { color:#fff; background-color:#000; }
+    </style>
+</head>
+ 
+<body>
+<span id="beemoviescript"></span>
+<script>
+const Http = new XMLHttpRequest();
+Http.open("GET", "https://gist.githubusercontent.com/MattIPv4/045239bc27b16b2bcf7a3a9a4648c08a/raw/2411e31293a35f3e565f61e7490a806d4720ea7e/bee%2520movie%2520script");
+Http.send();
 
+Http.onreadystatechange = (e) => {
+  document.getElementByID("beemoviescript").innerHTML = Http.responseText;
+}
+</script>
+</body>
+ 
+</html>
