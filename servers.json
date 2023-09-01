@@ -1,241 +1,22 @@
+
+
 {
   "user": {
     "u0": {
       "name": {
-        "en": "Diamond (rating +50%)",
-        "ru": "Алмаз (рейтинг +50%)"
+        "en": "Diamond",
+        "ru": "Алмаз"
       },
       "image": {
         "en": "http://static.rstgames.com/durak/public/serverimages/s_u0en.png?2",
         "ru": "http://static.rstgames.com/durak/public/serverimages/s_u0ru.png?2"
       },
-      "host": "65.21.92.166",
+      "host": "127.0.0.1",
       "port": 10773,
       "android": 10773,
       "huawei": 10773,
       "rustore": 10773,
-      "web_url": "wss://durak-replica.rstgames.com/ws0",
-      "weight": 0.0
-    },
-    "u2": {
-      "name": {
-        "en": "Ruby",
-        "ru": "Рубин"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u2en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u2ru.png?2"
-      },
-      "host": "65.21.92.166",
-      "port": 10772,
-      "android": 10772,
-      "huawei": 10772,
-      "rustore": 10772,
-      "web_url": "wss://durak-replica.rstgames.com/ws2",
-      "weight": 0.4
-    },
-    "u1": {
-      "name": {
-        "en": "Sapphire",
-        "ru": "Сапфир"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u3en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u3ru.png?2"
-      },
-      "host": "65.21.92.166",
-      "port": 10771,
-      "android": 10771,
-      "huawei": 10771,
-      "rustore": 10771,
-      "web_url": "wss://durak-replica.rstgames.com/ws1",
-      "weight": 0.1
-    },
-    "u3": {
-      "name": {
-        "en": "Emerald",
-        "ru": "Изумруд"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u1en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u1ru.png?2"
-      },
-      "host": "65.21.92.166",
-      "port": 10770,
-      "android": 10770,
-      "huawei": 10770,
-      "rustore": 10770,
-      "web_url": "wss://durak-replica.rstgames.com/ws3",
-      "weight": 1.0
-    },
-    "u4": {
-      "name": {
-        "en": "Amethyst",
-        "ru": "Аметист"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u4en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u4ru.png?2"
-      },
-      "host": "65.21.92.166",
-      "port": 10774,
-      "android": 10774,
-      "huawei": 10774,
-      "rustore": 10774,
-      "web_url": "wss://durak-replica.rstgames.com/ws4",
-      "weight": 1.0
-    },
-    "u5": {
-      "name": {
-        "en": "Aquamarine",
-        "ru": "Аквамарин"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u6en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u6ru.png?2"
-      },
-      "host": "65.21.92.166",
-      "port": 10775,
-      "android": 10775,
-      "huawei": 10775,
-      "rustore": 10775,
-      "web_url": "wss://durak-replica.rstgames.com/ws5",
-      "weight": 1.0
-    },
-    "u6": {
-      "name": {
-        "en": "Topaz",
-        "ru": "Топаз"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u5en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u5ru.png?2"
-      },
-      "host": "65.21.92.166",
-      "port": 10776,
-      "android": 10776,
-      "huawei": 10776,
-      "rustore": 10776,
-      "web_url": "wss://durak-replica.rstgames.com/ws6",
-      "weight": 1.0
-    },
-    "u7": {
-      "name": {
-        "en": "Opal",
-        "ru": "Опал"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u7en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u7ru.png?2"
-      },
-      "host": "65.21.92.166",
-      "port": 10777,
-      "android": 10777,
-      "huawei": 10777,
-      "rustore": 10777,
-      "web_url": "wss://durak-replica.rstgames.com/ws7",
-      "weight": 1.0
-    },
-    "u8": {
-      "name": {
-        "en": "Amber",
-        "ru": "Янтарь"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u8en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u8ru.png?2"
-      },
-      "host": "65.21.92.166",
-      "port": 10778,
-      "android": 10778,
-      "huawei": 10778,
-      "rustore": 10778,
-      "web_url": "wss://durak-replica.rstgames.com/ws8",
-      "weight": 1.0
-    },
-    "u9": {
-      "name": {
-        "en": "Jade",
-        "ru": "Нефрит"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u9en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u9ru.png?2"
-      },
-      "host": "65.21.92.166",
-      "port": 10779,
-      "android": 10779,
-      "huawei": 10779,
-      "rustore": 10779,
-      "web_url": "wss://durak-replica.rstgames.com/ws9",
-      "weight": 1.0
-    },
-    "uA": {
-      "name": {
-        "en": "Onyx",
-        "ru": "Оникс"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_uAen.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_uAru.png?2"
-      },
-      "host": "95.217.104.58",
-      "port": 10780,
-      "android": 10780,
-      "huawei": 10780,
-      "rustore": 10780,
-      "web_url": "wss://st2.rstgames.com/wsA",
-      "weight": 1.0
-    },
-    "uB": {
-      "name": {
-        "en": "Lazurite",
-        "ru": "Лазурит"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_uBen.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_uBru.png?2"
-      },
-      "host": "95.217.104.58",
-      "port": 10781,
-      "android": 10781,
-      "huawei": 10781,
-      "rustore": 10781,
-      "web_url": "wss://st2.rstgames.com/wsB",
-      "weight": 1.0
-    },
-    "uC": {
-      "name": {
-        "en": "Pearls",
-        "ru": "Жемчуг"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_uCen.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_uCru.png?2"
-      },
-      "host": "95.217.104.58",
-      "port": 10782,
-      "android": 10782,
-      "huawei": 10782,
-      "rustore": 10782,
-      "web_url": "wss://st2.rstgames.com/wsC",
-      "weight": 1.0
-    },
-    "uD": {
-      "name": {
-        "en": "Alexandrite",
-        "ru": "Александрит"
-      },
-      "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_uDen.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_uDru.png?2"
-      },
-      "host": "95.217.104.58",
-      "port": 10783,
-      "android": 10783,
-      "huawei": 10783,
-      "rustore": 10783,
-      "web_url": "wss://st2.rstgames.com/wsD",
+      "web_url": "",
       "weight": 1.0
     }
   },
@@ -589,9 +370,9 @@
           "en": "0"
         },
         "icon": {
-          "ios": "http://static.rstgames.com/loto/public/image/logo_160.png",
-          "android": "http://static.rstgames.com/loto/public/image/logo_160.png",
-          "huawei": "http://static.rstgames.com/loto/public/image/logo_160.png"
+          "ios": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "android": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "huawei": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png"
         }
       },
       "poker" : {
@@ -606,9 +387,9 @@
           "en": "0"
         },
         "icon": {
-          "ios": "http://static.rstgames.com/poker/public/image/poker_160.png",
-          "android": "http://static.rstgames.com/poker/public/image/poker_160.png",
-          "huawei": "http://static.rstgames.com/poker/public/image/poker_160.png"
+          "ios": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "android": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "huawei": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png"
         }
       },
       "backgammon" : {
@@ -623,9 +404,9 @@
           "en": "0"
         },
         "icon": {
-          "ios": "http://static.rstgames.com/bg/public/image/bg_160.png",
-          "android": "http://static.rstgames.com/bg/public/image/bg_160.png",
-          "huawei": "http://static.rstgames.com/bg/public/image/bg_160.png"
+          "ios": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "android": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "huawei": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png"
         }
       },
       "game101" : {
@@ -640,9 +421,9 @@
           "en": "0"
         },
         "icon": {
-          "ios": "http://static.rstgames.com/101/public/image/101_160.png",
-          "android": "http://static.rstgames.com/101/public/image/101_160.png",
-          "huawei": "http://static.rstgames.com/101/public/image/101_160.png"
+          "ios": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "android": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "huawei": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png"
         }
       },
       "roul" : {
@@ -657,9 +438,9 @@
           "en": "0"
         },
         "icon": {
-          "ios": "http://static.rstgames.com/roul/public/image/roul_160.png",
-          "android": "http://static.rstgames.com/roul/public/image/roul_160.png",
-          "huawei": "http://static.rstgames.com/roul/public/image/roul_160.png"
+          "ios": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "android": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "huawei": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png"
         }
       },
       "checkers" : {
@@ -674,9 +455,9 @@
           "en": "0"
         },
         "icon": {
-          "ios": "http://static.rstgames.com/che/public/image/che_160.png",
-          "android": "http://static.rstgames.com/che/public/image/che_160.png",
-          "huawei": "http://static.rstgames.com/che/public/image/che_160.png"
+          "ios": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "android": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "huawei": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png"
         }
       },
       "domino" : {
@@ -691,9 +472,9 @@
           "en": "0"
         },
         "icon": {
-          "ios": "https://domino.rstgames.com/s/client/domino_160.png",
-          "android": "https://domino.rstgames.com/s/client/domino_160.png",
-          "huawei": "https://domino.rstgames.com/s/client/domino_160.png"
+          "ios": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "android": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "huawei": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png"
         }
       },
       "wordboom" : {
@@ -708,9 +489,9 @@
           "en": "0"
         },
         "icon": {
-          "ios": "https://wordboom.rstgames.com/s/client/wordboom_160.png",
-          "android": "https://wordboom.rstgames.com/s/client/wordboom_160.png",
-          "huawei": "https://wordboom.rstgames.com/s/client/wordboom_160.png"
+          "ios": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "android": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "huawei": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png"
         }
       },
       "m3" : {
@@ -725,9 +506,9 @@
           "en": "0"
         },
         "icon": {
-          "ios": "https://m3.rstgames.com/s/client/m3_160.png",
-          "android": "https://m3.rstgames.com/s/client/m3_160.png",
-          "huawei": "https://m3.rstgames.com/s/client/m3_160.png"
+          "ios": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "android": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png",
+          "huawei": "https://github.com/ROBGUI09/ROBGUI09.github.io/blob/main/IMG_20230901_220917.png"
         }
       }
     }
