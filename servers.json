@@ -580,13 +580,13 @@
       "loto": {
         "sort": 90,
         "app": {
-          "ios": "581739568",
-          "android" : "com.rstgames.loto",
-          "huawei" : "105840427"
+          "ios": "",
+          "android" : "",
+          "huawei" : ""
         },
         "name": {
-          "ru": "Лото Онлайн",
-          "en": "Loto Online"
+          "ru": "не",
+          "en": "0"
         },
         "icon": {
           "ios": "http://static.rstgames.com/loto/public/image/logo_160.png",
@@ -597,13 +597,13 @@
       "poker" : {
         "sort": 80,
         "app": {
-          "ios": "1077750528",
-          "android" : "com.rstgames.poker",
-          "huawei" : "105670657"
+          "ios": "",
+          "android" : "",
+          "huawei" : ""
         },
         "name": {
-          "ru": "Покер Онлайн",
-          "en": "Poker Online"
+          "ru": "не",
+          "en": "0"
         },
         "icon": {
           "ios": "http://static.rstgames.com/poker/public/image/poker_160.png",
@@ -614,13 +614,13 @@
       "backgammon" : {
         "sort": 70,
         "app": {
-          "ios": "1144538463",
-          "android" : "com.rstgames.backgammon",
-          "huawei" : "105685439"
+          "ios": "",
+          "android" : "",
+          "huawei" : ""
         },
         "name": {
-          "ru": "Нарды Онлайн",
-          "en": "Backgammon Online"
+          "ru": "не",
+          "en": "0"
         },
         "icon": {
           "ios": "http://static.rstgames.com/bg/public/image/bg_160.png",
@@ -631,13 +631,13 @@
       "game101" : {
         "sort": 60,
         "app": {
-          "ios": "1339073937",
-          "android" : "com.rstgames.game101",
-          "huawei" : "105648027"
+          "ios": "",
+          "android" : "",
+          "huawei" : ""
         },
         "name": {
-          "ru": "Сто Одно Онлайн",
-          "en": "Mau Mau Online"
+          "ru": "не",
+          "en": "0"
         },
         "icon": {
           "ios": "http://static.rstgames.com/101/public/image/101_160.png",
@@ -648,13 +648,13 @@
       "roul" : {
         "sort": 50,
         "app": {
-          "ios": "1374767832",
-          "android" : "com.rstgames.roul",
-          "huawei" : "105671057"
+          "ios": "",
+          "android" : "",
+          "huawei" : ""
         },
         "name": {
-          "ru": "Рулетка Онлайн",
-          "en": "Roulette Online"
+          "ru": "не",
+          "en": "0"
         },
         "icon": {
           "ios": "http://static.rstgames.com/roul/public/image/roul_160.png",
@@ -665,13 +665,13 @@
       "checkers" : {
         "sort": 40,
         "app": {
-          "ios": "1572795201",
-          "android" : "com.rstgames.checkers",
-          "huawei" : "105685971"
+          "ios": "",
+          "android" : "",
+          "huawei" : ""
         },
         "name": {
-          "ru": "Шашки Онлайн",
-          "en": "Checkers Online"
+          "ru": "не",
+          "en": "0"
         },
         "icon": {
           "ios": "http://static.rstgames.com/che/public/image/che_160.png",
@@ -682,13 +682,13 @@
       "domino" : {
         "sort": 30,
         "app": {
-          "ios": "1526121198",
-          "android" : "com.rstgames.domino",
-          "huawei" : "105739479"
+          "ios": "",
+          "android" : "",
+          "huawei" : ""
         },
         "name": {
-          "ru": "Домино Онлайн",
-          "en": "Dominoes Online"
+          "ru": "не",
+          "en": "0"
         },
         "icon": {
           "ios": "https://domino.rstgames.com/s/client/domino_160.png",
@@ -699,13 +699,13 @@
       "wordboom" : {
         "sort": 20,
         "app": {
-          "ios": "1572795557",
-          "android" : "com.rstgames.wordboom",
-          "huawei" : "105739531"
+          "ios": "",
+          "android" : "",
+          "huawei" : ""
         },
         "name": {
-          "ru": "Словобум Онлайн",
-          "en": "Wordboom Online"
+          "ru": "не",
+          "en": "0"
         },
         "icon": {
           "ios": "https://wordboom.rstgames.com/s/client/wordboom_160.png",
@@ -716,13 +716,13 @@
       "m3" : {
         "sort": 10,
         "app": {
-          "ios": "1631810188",
-          "android" : "com.rstgames.m3",
-          "huawei" : "106432241"
+          "ios": "",
+          "android" : "",
+          "huawei" : ""
         },
         "name": {
-          "ru": "Три в ряд Онлайн",
-          "en": "Match 3 Online"
+          "ru": "не",
+          "en": "0"
         },
         "icon": {
           "ios": "https://m3.rstgames.com/s/client/m3_160.png",
