@@ -28,192 +28,30 @@
   "chat_img_size": 1024,
   "reconnect_interval":  5000,
   "help": {
-    "android": {
-      "en": "http://static.rstgames.com/durak/public/android/en/help.html",
-      "ru": "http://static.rstgames.com/durak/public/android/ru/help.html",
-      "hy": "http://static.rstgames.com/durak/public/android/hy/help.html",
-      "az": "http://static.rstgames.com/durak/public/android/az/help.html",
-      "de": "http://static.rstgames.com/durak/public/android/de/help.html",
-      "es": "http://static.rstgames.com/durak/public/android/es/help.html",
-      "fr": "http://static.rstgames.com/durak/public/android/fr/help.html",
-      "it": "http://static.rstgames.com/durak/public/android/it/help.html",
-      "tr": "http://static.rstgames.com/durak/public/android/tr/help.html",
-      "he": "http://static.rstgames.com/durak/public/android/he/help.html",
-      "uk": "http://static.rstgames.com/durak/public/android/uk/help.html"
-    },
-    "huawei": {
-      "en": "http://static.rstgames.com/durak/public/huawei/en/help.html",
-      "ru": "http://static.rstgames.com/durak/public/huawei/ru/help.html"
-    },
     "rustore": {
       "en": "http://static.rstgames.com/durak/public/rustore/en/help.html",
       "ru": "http://static.rstgames.com/durak/public/rustore/ru/help.html"
-    },
-    "web": {
-      "en": "http://static.rstgames.com/durak/public/web/en/help.html",
-      "ru": "http://static.rstgames.com/durak/public/web/ru/help.html"
-    },
-    "ios": {
-      "en": "http://static.rstgames.com/durak/public/en/help.html",
-      "ru": "http://static.rstgames.com/durak/public/ru/help.html",
-      "hy": "http://static.rstgames.com/durak/public/hy/help.html",
-      "az": "http://static.rstgames.com/durak/public/az/help.html",
-      "de": "http://static.rstgames.com/durak/public/de/help.html",
-      "es": "http://static.rstgames.com/durak/public/es/help.html",
-      "fr": "http://static.rstgames.com/durak/public/fr/help.html",
-      "it": "http://static.rstgames.com/durak/public/it/help.html",
-      "tr": "http://static.rstgames.com/durak/public/tr/help.html",
-      "he": "http://static.rstgames.com/durak/public/he/help.html",
-      "uk": "http://static.rstgames.com/durak/public/uk/help.html"
     }
   },
   "tos": {
-    "android": {
-      "en": "http://static.rstgames.com/durak/public/android/en/tos.html",
-      "ru": "http://static.rstgames.com/durak/public/android/ru/tos.html",
-      "hy": "http://static.rstgames.com/durak/public/android/hy/tos.html",
-      "az": "http://static.rstgames.com/durak/public/android/az/tos.html",
-      "de": "http://static.rstgames.com/durak/public/android/de/tos.html",
-      "es": "http://static.rstgames.com/durak/public/android/es/tos.html",
-      "fr": "http://static.rstgames.com/durak/public/android/fr/tos.html",
-      "it": "http://static.rstgames.com/durak/public/android/it/tos.html",
-      "tr": "http://static.rstgames.com/durak/public/android/tr/tos.html",
-      "he": "http://static.rstgames.com/durak/public/android/he/tos.html",
-      "uk": "http://static.rstgames.com/durak/public/android/uk/tos.html"
-    },
-    "huawei": {
-      "en": "http://static.rstgames.com/durak/public/huawei/en/tos.html",
-      "ru": "http://static.rstgames.com/durak/public/huawei/ru/tos.html"
-    },
     "rustore": {
       "en": "http://static.rstgames.com/durak/public/rustore/en/tos.html",
       "ru": "http://static.rstgames.com/durak/public/rustore/ru/tos.html"
-    },
-    "web": {
-      "en": "http://static.rstgames.com/durak/public/web/en/tos.html",
-      "ru": "http://static.rstgames.com/durak/public/web/ru/tos.html"
-    },
-    "ios": {
-      "en": "http://static.rstgames.com/durak/public/en/tos.html",
-      "ru": "http://static.rstgames.com/durak/public/ru/tos.html",
-      "hy": "http://static.rstgames.com/durak/public/hy/tos.html",
-      "az": "http://static.rstgames.com/durak/public/az/tos.html",
-      "de": "http://static.rstgames.com/durak/public/de/tos.html",
-      "es": "http://static.rstgames.com/durak/public/es/tos.html",
-      "fr": "http://static.rstgames.com/durak/public/fr/tos.html",
-      "it": "http://static.rstgames.com/durak/public/it/tos.html",
-      "tr": "http://static.rstgames.com/durak/public/tr/tos.html",
-      "he": "http://static.rstgames.com/durak/public/he/tos.html",
-      "uk": "http://static.rstgames.com/durak/public/uk/tos.html"
     }
   },
   "news": {
-    "android": {
-      "en": "http://static.rstgames.com/durak/public/android/en/news.html",
-      "ru": "http://static.rstgames.com/durak/public/android/ru/news.html",
-      "hy": "http://static.rstgames.com/durak/public/android/hy/news.html",
-      "az": "http://static.rstgames.com/durak/public/android/az/news.html",
-      "de": "http://static.rstgames.com/durak/public/android/de/news.html",
-      "es": "http://static.rstgames.com/durak/public/android/es/news.html",
-      "fr": "http://static.rstgames.com/durak/public/android/fr/news.html",
-      "it": "http://static.rstgames.com/durak/public/android/it/news.html",
-      "tr": "http://static.rstgames.com/durak/public/android/tr/news.html",
-      "he": "http://static.rstgames.com/durak/public/android/he/news.html",
-      "uk": "http://static.rstgames.com/durak/public/android/uk/news.html"
-    },
-    "huawei": {
-      "en": "http://static.rstgames.com/durak/public/huawei/en/news.html",
-      "ru": "http://static.rstgames.com/durak/public/huawei/ru/news.html"
-    },
     "rustore": {
       "en": "http://static.rstgames.com/durak/public/rustore/en/news.html",
       "ru": "http://static.rstgames.com/durak/public/rustore/ru/news.html"
-    },
-    "web": {
-      "en": "http://static.rstgames.com/durak/public/web/en/news.html",
-      "ru": "http://static.rstgames.com/durak/public/web/ru/news.html"
-    },
-    "ios": {
-      "en": "http://static.rstgames.com/durak/public/en/news.html",
-      "ru": "http://static.rstgames.com/durak/public/ru/news.html",
-      "hy": "http://static.rstgames.com/durak/public/hy/news.html",
-      "az": "http://static.rstgames.com/durak/public/az/news.html",
-      "de": "http://static.rstgames.com/durak/public/de/news.html",
-      "es": "http://static.rstgames.com/durak/public/es/news.html",
-      "fr": "http://static.rstgames.com/durak/public/fr/news.html",
-      "it": "http://static.rstgames.com/durak/public/it/news.html",
-      "tr": "http://static.rstgames.com/durak/public/tr/news.html",
-      "he": "http://static.rstgames.com/durak/public/he/news.html",
-      "uk": "http://static.rstgames.com/durak/public/uk/news.html"
     }
   },
   "share": {
-    "android": {
-      "en": "http://durak.rstgames.com/android/en/index.html",
-      "ru": "http://durak.rstgames.com/android/ru/index.html",
-      "hy": "http://durak.rstgames.com/android/hy/index.html",
-      "az": "http://durak.rstgames.com/android/az/index.html",
-      "de": "http://durak.rstgames.com/android/de/index.html",
-      "es": "http://durak.rstgames.com/android/es/index.html",
-      "fr": "http://durak.rstgames.com/android/fr/index.html",
-      "it": "http://durak.rstgames.com/android/it/index.html",
-      "tr": "http://durak.rstgames.com/android/tr/index.html",
-      "he": "http://durak.rstgames.com/android/he/index.html",
-      "uk": "http://durak.rstgames.com/android/uk/index.html"
-    },
-    "huawei": {
-      "en": "http://durak.rstgames.com/huawei/en/index.html",
-      "ru": "http://durak.rstgames.com/huawei/ru/index.html"
-    },
     "rustore": {
       "en": "http://durak.rstgames.com/rustore/en/index.html",
       "ru": "http://durak.rstgames.com/rustore/ru/index.html"
-    },
-    "web": {
-      "en": "http://durak.rstgames.com/web/en/index.html",
-      "ru": "http://durak.rstgames.com/web/ru/index.html"
-    },
-    "ios": {
-      "en": "http://durak.rstgames.com/en/index.html",
-      "ru": "http://durak.rstgames.com/ru/index.html",
-      "hy": "http://durak.rstgames.com/hy/index.html",
-      "az": "http://durak.rstgames.com/az/index.html",
-      "de": "http://durak.rstgames.com/de/index.html",
-      "es": "http://durak.rstgames.com/es/index.html",
-      "fr": "http://durak.rstgames.com/fr/index.html",
-      "it": "http://durak.rstgames.com/it/index.html",
-      "tr": "http://durak.rstgames.com/tr/index.html",
-      "he": "http://durak.rstgames.com/he/index.html",
-      "uk": "http://durak.rstgames.com/uk/index.html"
     }
   },
   "flags": {
-    "android": {
-      "en": "http://static.rstgames.com/durak/public/android/en/en.png",
-      "ru": "http://static.rstgames.com/durak/public/android/ru/ru.png",
-      "hy": "http://static.rstgames.com/durak/public/android/hy/hy.png",
-      "az": "http://static.rstgames.com/durak/public/android/az/az.png",
-      "de": "http://static.rstgames.com/durak/public/android/de/de.png",
-      "es": "http://static.rstgames.com/durak/public/android/es/es.png",
-      "fr": "http://static.rstgames.com/durak/public/android/fr/fr.png",
-      "it": "http://static.rstgames.com/durak/public/android/it/it.png",
-      "tr": "http://static.rstgames.com/durak/public/android/tr/tr.png",
-      "he": "http://static.rstgames.com/durak/public/android/he/he.png",
-      "uk": "http://static.rstgames.com/durak/public/android/uk/uk.png"
-    },
-    "huawei": {
-      "en": "http://static.rstgames.com/durak/public/android/en/en.png",
-      "ru": "http://static.rstgames.com/durak/public/android/ru/ru.png",
-      "hy": "http://static.rstgames.com/durak/public/android/hy/hy.png",
-      "az": "http://static.rstgames.com/durak/public/android/az/az.png",
-      "de": "http://static.rstgames.com/durak/public/android/de/de.png",
-      "es": "http://static.rstgames.com/durak/public/android/es/es.png",
-      "fr": "http://static.rstgames.com/durak/public/android/fr/fr.png",
-      "it": "http://static.rstgames.com/durak/public/android/it/it.png",
-      "tr": "http://static.rstgames.com/durak/public/android/tr/tr.png",
-      "he": "http://static.rstgames.com/durak/public/android/he/he.png",
-      "uk": "http://static.rstgames.com/durak/public/android/uk/uk.png"
-    },
     "rustore": {
       "en": "http://static.rstgames.com/durak/public/android/en/en.png",
       "ru": "http://static.rstgames.com/durak/public/android/ru/ru.png",
@@ -226,32 +64,6 @@
       "tr": "http://static.rstgames.com/durak/public/android/tr/tr.png",
       "he": "http://static.rstgames.com/durak/public/android/he/he.png",
       "uk": "http://static.rstgames.com/durak/public/android/uk/uk.png"
-    },
-    "web": {
-      "en": "http://static.rstgames.com/durak/public/android/en/en.png",
-      "ru": "http://static.rstgames.com/durak/public/android/ru/ru.png",
-      "hy": "http://static.rstgames.com/durak/public/android/hy/hy.png",
-      "az": "http://static.rstgames.com/durak/public/android/az/az.png",
-      "de": "http://static.rstgames.com/durak/public/android/de/de.png",
-      "es": "http://static.rstgames.com/durak/public/android/es/es.png",
-      "fr": "http://static.rstgames.com/durak/public/android/fr/fr.png",
-      "it": "http://static.rstgames.com/durak/public/android/it/it.png",
-      "tr": "http://static.rstgames.com/durak/public/android/tr/tr.png",
-      "he": "http://static.rstgames.com/durak/public/android/he/he.png",
-      "uk": "http://static.rstgames.com/durak/public/android/uk/uk.png"
-    },
-    "ios": {
-      "en": "http://static.rstgames.com/durak/public/en/en.png",
-      "ru": "http://static.rstgames.com/durak/public/ru/ru.png",
-      "hy": "http://static.rstgames.com/durak/public/hy/hy.png",
-      "az": "http://static.rstgames.com/durak/public/az/az.png",
-      "de": "http://static.rstgames.com/durak/public/de/de.png",
-      "es": "http://static.rstgames.com/durak/public/es/es.png",
-      "fr": "http://static.rstgames.com/durak/public/fr/fr.png",
-      "it": "http://static.rstgames.com/durak/public/it/it.png",
-      "tr": "http://static.rstgames.com/durak/public/tr/tr.png",
-      "he": "http://static.rstgames.com/durak/public/he/he.png",
-      "uk": "http://static.rstgames.com/durak/public/uk/uk.png"
     }
   },
   "store": "store.rstgames.com",
@@ -349,166 +161,12 @@
   "games": {
     "status_android": true,
     "status_huawei": true,
-    "status_rustore": true,
+    "status_rustore": false,
     "status_ios": true,
     "shuffle_android":11,
     "shuffle_huawei":11,
     "shuffle_rustore":11,
     "shuffle_ios": 11,
-    "apps": {
-      "loto": {
-        "sort": 90,
-        "app": {
-          "ios": "1",
-          "android": "1",
-          "huawei": "1"
-        },
-        "name": {
-          "ru": "не",
-          "en": "0"
-        },
-        "icon": {
-          "ios": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "android": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "huawei": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png"
-        }
-      },
-      "poker" : {
-        "sort": 80,
-        "app": {
-          "ios": "1",
-          "android": "1",
-          "huawei": "1"
-        },
-        "name": {
-          "ru": "не",
-          "en": "0"
-        },
-        "icon": {
-          "ios": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "android": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "huawei": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png"
-        }
-      },
-      "backgammon" : {
-        "sort": 70,
-        "app": {
-          "ios": "1",
-          "android": "1",
-          "huawei": "1"
-        },
-        "name": {
-          "ru": "не",
-          "en": "0"
-        },
-        "icon": {
-          "ios": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "android": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "huawei": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png"
-        }
-      },
-      "game101" : {
-        "sort": 60,
-        "app": {
-          "ios": "1",
-          "android": "1",
-          "huawei": "1"
-        },
-        "name": {
-          "ru": "не",
-          "en": "0"
-        },
-        "icon": {
-          "ios": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "android": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "huawei": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png"
-        }
-      },
-      "roul" : {
-        "sort": 50,
-        "app": {
-          "ios": "1",
-          "android": "1",
-          "huawei": "1"
-        },
-        "name": {
-          "ru": "не",
-          "en": "0"
-        },
-        "icon": {
-          "ios": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "android": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "huawei": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png"
-        }
-      },
-      "checkers" : {
-        "sort": 40,
-        "app": {
-          "ios": "1",
-          "android": "1",
-          "huawei": "1"
-        },
-        "name": {
-          "ru": "не",
-          "en": "0"
-        },
-        "icon": {
-          "ios": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "android": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "huawei": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png"
-        }
-      },
-      "domino" : {
-        "sort": 30,
-        "app": {
-          "ios": "1",
-          "android": "1",
-          "huawei": "1"
-        },
-        "name": {
-          "ru": "не",
-          "en": "0"
-        },
-        "icon": {
-          "ios": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "android": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "huawei": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png"
-        }
-      },
-      "wordboom" : {
-        "sort": 20,
-        "app": {
-          "ios": "1",
-          "android": "1",
-          "huawei": "1"
-        },
-        "name": {
-          "ru": "не",
-          "en": "0"
-        },
-        "icon": {
-          "ios": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "android": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "huawei": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png"
-        }
-      },
-      "m3" : {
-        "sort": 10,
-        "app": {
-          "ios": "1",
-          "android": "1",
-          "huawei": "1"
-        },
-        "name": {
-          "ru": "не",
-          "en": "0"
-        },
-        "icon": {
-          "ios": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "android": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png",
-          "huawei": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230901_220917.png"
-        }
-      }
-    }
+    "apps": {}
   }
 }
