@@ -349,7 +349,7 @@
   "games": {
     "status_android": true,
     "status_huawei": true,
-    "status_rustore": false,
+    "status_rustore": true,
     "status_ios": true,
     "shuffle_android":11,
     "shuffle_huawei":11,
