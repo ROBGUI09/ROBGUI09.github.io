@@ -359,9 +359,9 @@
       "loto": {
         "sort": 90,
         "app": {
-          "ios": "",
-          "android" : "",
-          "huawei" : ""
+          "ios": "1",
+          "android": "1",
+          "huawei": "1"
         },
         "name": {
           "ru": "не",
@@ -376,9 +376,9 @@
       "poker" : {
         "sort": 80,
         "app": {
-          "ios": "",
-          "android" : "",
-          "huawei" : ""
+          "ios": "1",
+          "android": "1",
+          "huawei": "1"
         },
         "name": {
           "ru": "не",
@@ -393,9 +393,9 @@
       "backgammon" : {
         "sort": 70,
         "app": {
-          "ios": "",
-          "android" : "",
-          "huawei" : ""
+          "ios": "1",
+          "android": "1",
+          "huawei": "1"
         },
         "name": {
           "ru": "не",
@@ -410,9 +410,9 @@
       "game101" : {
         "sort": 60,
         "app": {
-          "ios": "",
-          "android" : "",
-          "huawei" : ""
+          "ios": "1",
+          "android": "1",
+          "huawei": "1"
         },
         "name": {
           "ru": "не",
@@ -427,9 +427,9 @@
       "roul" : {
         "sort": 50,
         "app": {
-          "ios": "",
-          "android" : "",
-          "huawei" : ""
+          "ios": "1",
+          "android": "1",
+          "huawei": "1"
         },
         "name": {
           "ru": "не",
@@ -444,9 +444,9 @@
       "checkers" : {
         "sort": 40,
         "app": {
-          "ios": "",
-          "android" : "",
-          "huawei" : ""
+          "ios": "1",
+          "android": "1",
+          "huawei": "1"
         },
         "name": {
           "ru": "не",
@@ -461,9 +461,9 @@
       "domino" : {
         "sort": 30,
         "app": {
-          "ios": "",
-          "android" : "",
-          "huawei" : ""
+          "ios": "1",
+          "android": "1",
+          "huawei": "1"
         },
         "name": {
           "ru": "не",
@@ -478,9 +478,9 @@
       "wordboom" : {
         "sort": 20,
         "app": {
-          "ios": "",
-          "android" : "",
-          "huawei" : ""
+          "ios": "1",
+          "android": "1",
+          "huawei": "1"
         },
         "name": {
           "ru": "не",
@@ -495,9 +495,9 @@
       "m3" : {
         "sort": 10,
         "app": {
-          "ios": "",
-          "android" : "",
-          "huawei" : ""
+          "ios": "1",
+          "android": "1",
+          "huawei": "1"
         },
         "name": {
           "ru": "не",
