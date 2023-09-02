@@ -3,11 +3,11 @@
     "u0": {
       "name": {
         "en": "Diamond",
-        "ru": "Алмаз"
+        "ru": "Даймонд"
       },
       "image": {
-        "en": "http://static.rstgames.com/durak/public/serverimages/s_u0en.png?2",
-        "ru": "http://static.rstgames.com/durak/public/serverimages/s_u0ru.png?2"
+        "en": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230902_205615.png",
+        "ru": "https://raw.githubusercontent.com/ROBGUI09/ROBGUI09.github.io/main/IMG_20230902_205615.png"
       },
       "host": "127.0.0.1",
       "port": 10773,
