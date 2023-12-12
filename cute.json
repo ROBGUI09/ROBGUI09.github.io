@@ -1,0 +1,15 @@
+{
+    "manifest": {
+        "author": "kelk",
+        "version": "1.6.9",
+        "name": "cute"
+    },
+    "background": {
+        "blur_radius": 0,
+        "overlay_alpha": 25,
+        "url": "https:\/\/kelk.ddns.net\/static\/cute.jpg"
+    },
+    "fonts": {
+        "*": "https:\/\/kelk.ddns.net\/static\/chicago.ttf"
+    }
+}
